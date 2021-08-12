@@ -20,5 +20,7 @@ jobs:
         dotnet-version: 5.0.x
 
     - name: Run
-      run: dotnet run
+      working-directory: "Exercises13,14,15"
+      run: |
+        dotnet run
 
